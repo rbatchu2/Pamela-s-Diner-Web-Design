@@ -1,0 +1,287 @@
+body {
+    font-family:"Avenir";
+
+    font-size: 100%;
+    
+    line-height: 1.7em;
+
+    color:#000000;
+}
+
+h2{
+    font-family: "Avenir";
+    color: hsl(0, 4%, 10%); /* Good contrast color for heading */
+    font-size: 1.25em; /* http://pxtoem.com/*/
+   }
+
+h3 {
+    font-family: "Avenir";
+    font-size: 1.125em;
+    font-weight: 400;
+    /* sets how thick or thin characters in text should be displayed. */
+}
+
+h1 
+{
+    font-family: "Avenir";
+}
+
+#form 
+{
+    font-family: "Avenir";
+    float:right;
+}
+
+button 
+{
+    font-family: "Avenir";
+}
+
+#accordion h4
+{
+    font-family: "Avenir";
+    color: black;
+}
+
+a
+{
+    font-family: "Avenir";
+    color:#ffffff;
+    text-decoration: none;
+}
+
+#content a
+{
+    color:black;
+}
+
+tr
+{
+    font-family:"Avenir";
+}
+th
+{
+    font-family:"Avenir";
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+#content a:hover
+{
+    color:#0F4970;
+}
+
+#content h1 
+{
+    text-align:center;
+}
+
+/* Sets hover color and underlines text when there is a mouse hover */
+a:hover{
+    color:#0F4970;
+    text-decoration:underline;
+}
+
+/* Header style settings. Makes the header black */
+#header 
+{
+    width:100%; 
+    height: 80px; 
+    display: block; 
+    background-color: #161515;
+}
+
+
+#interior
+{
+    width: 1000px; 
+    height: 100; 
+    display: block;
+    margin: auto; 
+}
+
+/* Creates Pamela's diner text in the top left corner (sort of logo) */
+#logo 
+{
+    height: 75px; 
+    display: table; 
+    float: left; 
+}
+
+/* Color and font settings for Pamela's diner text in the top left corner*/
+#logo h1 
+{
+    color: white; 
+    height: 100%; 
+    display: table-cell; 
+    vertical-align: middle;
+    font-family: "Avenir";
+    font-size: 32px;
+}
+
+#interior a 
+{
+    height: 100%; 
+    display: table; 
+    float: right; 
+    padding: 25px;
+    font-family: "Avenir";
+}
+
+#interior a li 
+{
+    display: table-cell; 
+    vertical-align: middle; 
+    height: 100%; 
+    color: white; 
+    font-family: "Avenir";
+}
+
+/* Pancake image with 100% width stretched across the screen*/
+#pancakeimg img 
+{
+    width: 100%;
+    height: auto;
+    float: right;
+}
+
+
+.centered 
+{
+  position: absolute;
+  top: 20%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  color: black; 
+  font-family: "Avenir";
+  font-size: 2em;
+  font-weight: bold; 
+}
+
+
+/* Style for paragraph tag */
+p
+{
+  font-family: "Avenir";
+  font-size: 1em;
+}
+
+/* Style for form*/
+form 
+{
+    font-family: "Avenir";
+    color: black;
+    width: 50%;
+}
+
+/* Style for list items */
+li
+{
+    font-family: "Avenir";
+}
+
+
+.location iframe 
+{
+   display: inline-block;
+   margin-bottom: 10px;
+}
+
+.location ul 
+{
+  display: inline-block;
+  vertical-align:top;
+} 
+
+.location 
+{
+  display: inline-block;
+  text-align: left; 
+  margin-left: 1%; 
+  margin-right:1%; 
+
+}
+#container-location
+{
+    text-align:center;
+}
+
+
+#reviews{
+    color: #272626;
+    text-align: center;
+    font-family: "Avenir";
+    padding: 30px;
+  }
+  
+#menu{
+    color: #272626;
+    text-align: center;
+    font-family: "Avenir";
+    padding: 30px;
+  }
+  
+
+  .inner{
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+  }
+  
+  hr 
+  {
+    border: 3px solid rgb(50, 50, 50);
+    width: 30%;
+  }
+
+.row
+{
+    display: flex;
+}
+
+.col
+{
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+#review1{
+    background: rgb(234, 234, 234);
+    padding: 30px;
+  
+}
+#review2{
+    background: rgb(234, 234, 234);
+    padding: 30px;
+  }
+#review3
+{
+    background: rgb(234, 234, 234);
+    padding: 30px;
+}
+.name
+{
+    font-size: 20px;
+    padding: 10px
+}
+
+.item 
+{
+    background: rgb(234, 234, 234);
+    padding: 30px;
+}
+
+.menuimage 
+{
+   border-radius: 30%;
+}
+
+
+#locations {
+    text-align:center;
+    padding:30px;
+    font-family: "Avenir";
+}
